@@ -1,8 +1,0 @@
-@font-face {
-  font-family: 'nanumSquare';
-  src: url(source/fonts/NanumSquareRegular.ttf);
-}
-
-body {
-  font-family: nanumSquare;
-}
