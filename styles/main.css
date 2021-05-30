@@ -8,6 +8,36 @@ body {
 }
 
 
+/* ability */
+.ability {
+  background: #fafafa;
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+}
+
+.ability i {
+  font-size: 60px;
+}
+
+.ability p {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.badge-more {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* footer */
 footer {
   height: 150px;
