@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   text-align: center;
   border: none;
+  transition: transform 0.5s;
 }
 
 .ability i {
