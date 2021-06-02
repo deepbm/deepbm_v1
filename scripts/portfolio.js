@@ -16,3 +16,20 @@ card.forEach((el, i) => {
     }
   });
 })
+
+
+// modal
+const portfolioCount = card.length;
+for (let i = 1; i <= portfolioCount; i++) {
+  // show
+  $(`.portfolio${i}`).click(() => {
+    $(`.modal${i}`).fadeIn();
+  });
+
+  // hide
+  $(`.modal${i}`).click(e => {
+    if (e.target.classList.contains('black-background') || e.target.classList.contains('btn-close')) {
+      $(`.modal${i}`).fadeOut();
+    }
+  });
+}
