@@ -1,0 +1,51 @@
+section {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.grey-box {
+  background: #fafafa;
+}
+
+
+/* profile */
+.profile-pic {
+  border-right: 1px solid #dfe2e6;
+}
+
+.profile-pic img {
+  display: block;
+  margin: auto;
+}
+
+
+/* stack */
+.stack a {
+  color: #828282;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 0;
+  list-style: square;
+}
+
+
+/* ~ 768px */
+@media only screen and (max-width : 768px) {
+  /* profile */
+  .profile-pic {
+    border-right: none;
+  }
+
+  .profile-text {
+    margin-top: 20px;
+  }
+
+  .profile-text h5 {
+    text-align: end;
+  }
+}
