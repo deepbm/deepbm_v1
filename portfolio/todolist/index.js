@@ -12,4 +12,9 @@ $('.to-do-list').click(e => {
       $(e.target).next().removeClass('done');
     }
   }
+  
+  // remove
+  if (e.target.classList.contains('btn-remove') || e.target.classList.contains('fa-trash')) {
+    $(e.target).parents('li').remove();
+  }
 });
