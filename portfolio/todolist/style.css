@@ -48,6 +48,11 @@ section {
   cursor: pointer;
 }
 
+.done {
+  opacity: 0.8;
+  text-decoration: line-through;
+}
+
 
 /* append */
 .input-append {
