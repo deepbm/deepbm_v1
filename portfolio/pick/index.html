@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Pick lunch</title>
+</head>
+<body>
+
+  <section class="white-box">
+    <h2 class="title">menu list</h2>
+    <ul class="menu-list">
+      
+    </ul>
+    <div class="center">
+      <button class="btn btn-reset">초기화</button>
+      <button class="btn btn-pick">PICK</button>
+    </div>
+  </section>
+
+  <section class="append white-box">
+    <input type="text" class="input-append" placeholder="Type here!">
+    <button class="btn btn-append">ADD</button>
+  </section>
+
+  <!-- modal -->
+  <div class="black-background modal">
+    <div class="white-box modal-container">
+      <div class="helper"></div><div class="modal-text">
+        <i class="fas fa-utensils"></i>
+        <p>오늘의 점심 메뉴는 피자 입니다!</p>
+        <button class="btn btn-close">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
