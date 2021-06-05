@@ -33,3 +33,9 @@ $('.input-append').keydown(key => {
 $('.btn-append').click(() => {
   add();
 });
+
+
+// reset
+$('.btn-reset').click(() => {
+  $('.menu-list').html('');
+});
