@@ -50,3 +50,44 @@ $('.btn-append').click(() => {
 $('.btn-reset').click(() => {
   $('.menu-list').html('');
 });
+
+
+// pick
+async function pickMenu(...menu) {
+  const p = new Promise((resolve, reject) => {
+    if (menu.length === 0) {
+      alert('메뉴판에 등록된 메뉴가 없습니다.');
+    } else {
+      setTimeout(() => {
+        const randomIndex = Math.floor(Math.random() * menu.length);
+        resolve(menu[randomIndex]);
+      }, 2000);
+    }
+  });
+
+  return p;
+}
+
+async function getMenu() {
+  try {
+    const menu = await pickMenu(...menus);
+    const result = document.createElement('p');
+    result.innerHTML = `오늘의 점심메뉴는 ${menu}!!`;
+    const target = document.querySelector('.menu');
+    target.append(result);
+    $('.modal').slideDown();
+  } catch (error) {
+    console.log(error.message);
+  }
+}
+
+$('.btn-pick').click(() => {
+  getMenu();
+});
+
+
+// close
+$('.btn-close').click(() => {
+  $('.modal').slideUp();
+  $('.menu').html('');
+});
