@@ -1,5 +1,7 @@
 // login modal
 $('.sign-in').click(() => {
+  $('.alert-email').hide();
+  $('.alert-pw').hide();
   $('.modal').slideDown();
 });
 
@@ -14,4 +16,19 @@ $('.btn-close').mouseover(function() {
 
 $('.btn-close').mouseleave(function() {
   $(this).css('transform', 'rotate(0)');
+});
+
+// alert message
+$('form').on('submit', e => {
+  // email
+  if ($('.input-email').val() === '') {
+    e.preventDefault();
+    $('.alert-email').show();
+  }
+
+  // password
+  if ($('.input-pw').val() === '') {
+    e.preventDefault();
+    $('.alert-pw').show();
+  }
 });

@@ -36,6 +36,11 @@ body {
   transition: transform 0.5s;
 }
 
+.alert-email,
+.alert-pw {
+  display: none;
+}
+
 
 /* footer */
 .icon li{
