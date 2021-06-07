@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+
+/* footer */
+.icon li{
+  display: inline-block;
+}
+
+.icon li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.icon li a {
+  color: #555;
+  font-size: 20px;
+}
+
+.icon li a:hover {
+  color: black;
+}
