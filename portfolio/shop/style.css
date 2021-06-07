@@ -33,6 +33,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  transition: transform 0.5s;
 }
 
 
