@@ -9,10 +9,10 @@ $('.btn-contact').mouseleave(() => {
 
 
 /* ability */
-$('.ability').mouseover(e => {
+$('.ability i').mouseover(e => {
   $(e.target).css('transform', 'scale(1.1)');
 });
 
-$('.ability').mouseleave(e => {
+$('.ability i').mouseleave(e => {
   $(e.target).css('transform', 'scale(1)');
 });
