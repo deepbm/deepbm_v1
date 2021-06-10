@@ -39,7 +39,6 @@ section {
 
 .to-do-list li i,
 .to-do-list li span {
-  display: inline-block;
   vertical-align: middle;
 }
 
