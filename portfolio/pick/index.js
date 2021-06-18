@@ -25,7 +25,7 @@ function add() {
   if (value) {
     $('.menu-list').append(`<li>
     <span class="item">${value}</span>
-    <button class="btn btn-remove"><i class="fas fa-trash"></i></button>
+    <button class="btn-remove"><i class="fas fa-trash"></i></button>
   </li>`)
     $('.input-append').val('');
   } else {
