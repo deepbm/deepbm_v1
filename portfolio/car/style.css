@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+.header {
+  height: 64px;
+}
+
+.logo img {
+  margin-top: 28px;
+  margin-left: 20px;
+}
+
+.menu {
+  float: right;
+  margin-top: -17px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 25px;
+  cursor: pointer;
+}
