@@ -29,3 +29,51 @@ body {
   margin-right: 25px;
   cursor: pointer;
 }
+
+
+/* main image */
+.main-image {
+  height: 600px;
+  background-image: url('images/moment-4-promotional-hero-2560x1440.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-title {
+  color: #fff;
+  padding: 80px 50px 0;
+}
+
+.main-title h1 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Unica One', cursive;
+  font-size: 64px;
+}
+
+.main-more {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-more:hover {
+  color: #555;
+}
+
+
+@media only screen and (max-width : 992px) {
+  /* main image */
+  .main-more {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #3c6eb4;
+  }
+
+  .main-more:hover {
+    color: #000;
+  }
+}
