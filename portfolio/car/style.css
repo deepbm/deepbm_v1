@@ -63,6 +63,24 @@ body {
 }
 
 
+/* intro */
+.intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.intro h4 {
+  margin-bottom: 20px;
+}
+
+.intro p {
+  color: #707070;
+}
+
+
 @media only screen and (max-width : 992px) {
   /* main image */
   .main-more {
@@ -75,5 +93,10 @@ body {
 
   .main-more:hover {
     color: #000;
+  }
+
+  /* intro */
+  .intro {
+    margin-top: 200px;
   }
 }
