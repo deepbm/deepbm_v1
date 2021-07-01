@@ -155,6 +155,70 @@ body {
 }
 
 
+/* reason */
+.reason {
+  margin-top: 100px;
+  padding: 30px;
+  background: #fafafa;
+}
+
+.reason h4 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.reason-img {
+  background-image: url('images/homepage-whyvolvo-desktop-16x9.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.reason-container {
+  margin-top: 20px;
+}
+
+.reason-section {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.reason-section h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.reason-section p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.reason-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.reason .btn-more {
+  display: block;
+  margin: 30px auto 70px;
+  padding: 15px 30px;
+  border: 1px solid #3c6eb4;
+  border-radius: 5px;
+  color: #3c6eb4;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.reason .btn-more:hover {
+  color: #fff;
+  background-color: #3c6eb4;
+}
+
+
 @media only screen and (max-width : 992px) {
   /* main image */
   .main-more {
@@ -184,5 +248,11 @@ body {
 
   .card .card-img {
     height: 620px;
+  }
+
+
+  /* reason */
+  .reason-img {
+    height: 300px;
   }
 }
