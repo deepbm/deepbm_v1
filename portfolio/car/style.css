@@ -219,6 +219,37 @@ body {
 }
 
 
+/* footer */
+.footer {
+  background: #fafafa;
+  padding: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #141414;
+}
+
+.footer-site li {
+  display: inline-block;
+}
+
+.footer-site li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-site li a {
+  color: #141414;
+  text-decoration: none;
+}
+
+.footer-site li a:hover {
+  color: #3c6eb4;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+
+
 @media only screen and (max-width : 992px) {
   /* main image */
   .main-more {
