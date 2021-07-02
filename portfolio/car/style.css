@@ -9,6 +9,122 @@ body {
 }
 
 
+/* side menu */
+.side-menu {
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  background: #fff;
+}
+
+.sub-header {
+  height: 60px;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+}
+
+.btn-close {
+  background: transparent;
+  border: none;
+  font-size: 26px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list li {
+  padding: 15px;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-list li:hover {
+  background: #eee;
+}
+
+.menu-list li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.menu-list li span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.icons {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.icons li {
+  display: inline-block;
+}
+
+.icons li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.icons li i {
+  color: #000;
+  font-size: 18px;
+}
+
+.icons li i:hover {
+  color: #555;
+}
+
+/* side menu - buy */
+.sub-menu-buy {
+  display: none;
+}
+
+.fa-chevron-left {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sub-header p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menu-list .sub-menu-title {
+  padding: 50px 15px 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* side menu - service */
+.sub-menu-service {
+  display: none;
+}
+
+/* side menu - why volvo */
+.sub-menu-why-volvo {
+  display: none;
+}
+
+/* side menu - more */
+.sub-menu-more {
+  display: none;
+}
+
+
 /* header */
 .header {
   height: 64px;
@@ -19,12 +135,12 @@ body {
   margin-left: 20px;
 }
 
-.menu {
+.main-menu {
   float: right;
   margin-top: -17px;
 }
 
-.menu li {
+.main-menu li {
   display: inline-block;
   margin-right: 25px;
   cursor: pointer;
