@@ -1,9 +1,11 @@
 // side menu
 $('.menu-trigger').click(() => {
+  $('.black-background').fadeIn();
   $('.side-menu').css('transform', 'translateX(0)');
 });
 
 $('.btn-close').click(() => {
+  $('.black-background').fadeOut();
   $('.side-menu').css('transform', 'translateX(400px)');
 });
 
