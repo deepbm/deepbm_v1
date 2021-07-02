@@ -17,6 +17,8 @@ body {
   right: 0;
   z-index: 100;
   background: #fff;
+  transform: translateX(400px);
+  transition: transform 0.5s;
 }
 
 .sub-header {
