@@ -7,6 +7,8 @@ $('.menu-trigger').click(() => {
 $('.btn-close').click(() => {
   $('.black-background').fadeOut();
   $('.side-menu').css('transform', 'translateX(400px)');
+  $('.side-menu').children().hide();
+  $('.sub-menu').show();
 });
 
 // previous button
