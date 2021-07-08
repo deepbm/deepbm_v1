@@ -1,0 +1,15 @@
+@font-face {
+  font-family: ng;
+  src: url(../fonts/NanumGothic.eot);
+  src: url(../fonts/NanumGothic.woff) format('woff');
+}
+
+@font-face {
+  font-family: ngb;
+  src: url(../fonts/NanumGothicExtraBold.eot);
+  src: url(../fonts/NanumGothicExtraBold.woff) format('woff');
+}
+
+body {
+  font-family: ng, Arial, sans-serif;
+}
